@@ -1,0 +1,11 @@
+
+
+/*start background image*/
+	body {
+        background: rgba(0,0,0,0.5)url("../assets/img/lib_bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+/*end background image*/

@@ -1,0 +1,16 @@
+
+
+  /* Kapag na-click ang link, magkaroon ng underline */
+  .nav-link.active::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #000; /* Kulay ng underline */
+    width: 50%; /* Lapad ng underline */
+    margin: auto; /* Igawa ng pahintulot */
+    padding-bottom: 5px; /* Pahintulot sa ilalim ng underline */
+  }
+  
+  /* Baguhin ang kulay ng background sa light white */
+  .nav-pills {
+    background-color: #ffffff; /* Light white background color */
+  }
